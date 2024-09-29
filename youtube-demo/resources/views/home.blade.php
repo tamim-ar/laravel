@@ -4,7 +4,7 @@
     <meta charset="UTF-8">
     <meta name="viewport" content="width=device-width, initial-scale=1.0">
     <meta http-equiv="X-UA-Compatible" content="ie=edge">
-    <title>Document</title>
+    <title>Home</title>
     <style>
         body {
             font-family: 'Segoe UI', Tahoma, Geneva, Verdana, sans-serif;
@@ -152,7 +152,7 @@
 
     @auth
         <div class="container">
-            <p>Congrats, you are logged in.</p>
+            <p>You're in!</p>
             <form action="/logout" method="POST">
                 @csrf
                 <button>Log out</button>
