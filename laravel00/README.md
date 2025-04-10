@@ -7,6 +7,62 @@
 <a href="https://packagist.org/packages/laravel/framework"><img src="https://img.shields.io/packagist/l/laravel/framework" alt="License"></a>
 </p>
 
+# Laravel Project
+
+A Laravel-based web application using Laravel's latest features and best practices.
+
+## Features
+- Authentication & Authorization
+- Database migrations and seeding
+- RESTful API architecture
+- Blade templating
+- Modern UI with TailwindCSS
+
+## Technical Stack
+- PHP 8.x
+- Laravel 10.x
+- MySQL
+- TailwindCSS
+- JavaScript
+
+## Prerequisites
+- PHP >= 8.1
+- Composer
+- Node.js & NPM
+- MySQL
+
+## Installation
+
+1. Clone the repository
+```bash
+git clone [repository-url]
+cd laravel00
+```
+
+2. Install dependencies
+```bash
+composer install
+npm install
+```
+
+3. Configure environment
+```bash
+cp .env.example .env
+php artisan key:generate
+```
+
+4. Set up database
+```bash
+php artisan migrate
+php artisan db:seed
+```
+
+5. Start development server
+```bash
+php artisan serve
+npm run dev
+```
+
 ## About Laravel
 
 Laravel is a web application framework with expressive, elegant syntax. We believe development must be an enjoyable and creative experience to be truly fulfilling. Laravel takes the pain out of development by easing common tasks used in many web projects, such as:
